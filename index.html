@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-App</title>
+
+    <link rel="stylesheet" href="./assets/css/design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./scripts/controller.js" type="module" async></script>
+</head>
+<body>
+    <div id="todo-form">
+        <div class="box">
+        <h1 id="todo">To Do App</h1>
+        <div>
+            <label>Id</label>
+            <label id="id">
+        </div>
+        <div>
+            <label>Name</label>
+            <input id="name" type="text" placeholder="Type Name here">
+            <span id="name-error"></span>
+        </div>
+        <div>
+            <label>Desc</label>
+            <textarea id="desc" rows="5" cols="30" placeholder="type here"></textarea>
+        </div>
+        <div>
+            <label>Date</label>
+            <input id="date" type="date" placeholder="enter date">
+        </div>
+        <div>
+            <label>Time</label>
+            <input id="time" type="time"placeholder="enter time">
+        </div>
+        <div>
+            <label>Photo</label>
+            <input id="photo" type="url" placeholder="upload photo">
+        </div>
+    </div>
+    </div>
+
+    <div class="box">
+    <div id="totals">
+        <p>Total Records <span id="total">0</span> Marked Records <span id="marked">0</span> Unmarked Records <span id="unmarked">0</span></p>
+    </div>
+    <div id="operations">
+        <button id="add">Add</button>
+        <button id="delete" class="dlt-IsEnable">Delete</button>
+        <button id="update">Update</button>
+        <input type="text" id="search-box" placeholder="Search by name or desc">
+        
+        <button id="search">Search</button>
+        <button id="sortName">Sort by Name</button>
+        <button id="sortDate">Sort by Date</button>
+
+        <button id="save">Save</button>
+        <button id="clearAll">Clear All</button>
+    </div>
+    <div id="records">
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Desc</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Photo</th>
+                <th>Operations</th>
+            </tr>
+        </thead>
+        <tbody id="task-list">
+            
+        </tbody>
+    </table>
+    </div>
+    </div>
+</body>
+</html>

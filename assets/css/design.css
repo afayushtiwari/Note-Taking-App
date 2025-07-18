@@ -1,0 +1,132 @@
+.red{
+    background-color: lightcoral;
+}
+
+.hand{
+    cursor: pointer;
+}
+
+body {
+    background: linear-gradient(to bottom right, #d831a6, #4e1098);
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Box Layout */
+.box {
+    width: 85%;
+    max-width: 580px;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 0, 200, 0.2);
+}
+
+/* Form Fields */
+#todo-form div {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#todo-form label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #fff200b2;
+}
+
+#todo-form input,
+#todo-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #616c1c;
+    border-radius: 6px;
+    background-color: #111;
+    color: white;
+}
+
+/* Button Styles */
+#operations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#operations input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #eeff00;
+    background-color: #111;
+    color: white;
+}
+
+button {
+    background-color: #bb613dd2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #008496;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #222;
+    color: #fff200b2;;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #555;
+    text-align: center;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Error Message (optional) */
+#name-error {
+    color: red;
+    font-size: 0.85rem;
+}
+#todo{
+    text-align: center;
+    color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
