@@ -1,47 +1,43 @@
-📓 To Do App
-A sleek and functional To-Do App built using HTML, CSS, and JavaScript.
-Manage your daily tasks with ease — add, update, delete, search, sort, and store them locally with additional support for photos, date, and time.
+# 📓 To Do App
 
-✨ Features
-🔖 Add New Tasks with:
-• Name
-• Description
-• Date & Time
-• Optional Photo Upload
+A **To Do App** built using **HTML**, **CSS**, and **JavaScript**. This project allows users to efficiently manage their tasks with features like add, update, delete, search, sort, and photo upload — all with local storage support.
 
-✏️ Update Existing Tasks
+---
 
-🗑️ Delete Tasks
+## ✨ Features
 
-🔍 Search by Name or Description
+- 🔖 **Add Tasks**: Include name, description, date, time, and an optional photo.
+- ✏️ **Edit Tasks**: Update existing task details easily.
+- 🗑️ **Delete Tasks**: Remove tasks you no longer need.
+- 🔍 **Search Tasks**: Filter tasks by name or description.
+- 🗂️ **Sort Tasks**: Sort tasks by name or date.
+- ✅ **Mark/Unmark**: Toggle task completion status.
+- 💾 **Save to Local Storage**: Keeps your tasks even after a page refresh.
+- 🧹 **Clear All**: Instantly remove all tasks.
 
-🗂️ Sort by Name or Date
+---
 
-✅ Mark / Unmark Tasks
+## 🎨 UI Highlights
 
-💾 Save to Local Storage
+- 💜 Elegant purple gradient design with clean input forms.
+- 🆔 Auto ID tracking for each task.
+- 📊 Dynamic table showing real-time task stats.
+- 🖱️ Intuitive controls and smooth interaction.
 
-🧹 Clear All Tasks
+---
 
-🎨 UI Highlights
-💜 Beautiful purple gradient theme with dark input panel
+## 🛠️ Technologies Used
 
-🆔 Auto-generated task ID with live tracking
+- **HTML5**: Page structure and semantic layout  
+- **CSS3**: Custom styles and gradient UI  
+- **JavaScript (ES6)**: Logic, events, and DOM manipulation  
+- **LocalStorage API**: For data persistence on the client side  
 
-📊 Dynamic task table with real-time updates
+---
 
-🖱️ Interactive and user-friendly buttons
+## 🧠 How to Use
 
-🛠️ Technologies Used
-HTML5
-• Page structure and semantic layout
-
-CSS3
-• Styling, layout, and responsive design
-
-JavaScript (ES6)
-• Application logic and dynamic DOM manipulation
-
-LocalStorage API
-• Persistent data storage in the browser
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/afayushtiwari/todo-app.git
+   cd todo-app
