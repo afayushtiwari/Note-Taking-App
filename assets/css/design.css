@@ -118,50 +118,6 @@ img {
     color: antiquewhite;
 }
 
-/* 📱 Mobile Responsiveness */
-@media screen and (max-width: 768px) {
-    .box {
-        width: 95%;
-        padding: 20px;
-    }
-
-    #todo-form div {
-        text-align: center;
-    }
-
-    #todo-form input,
-    #todo-form textarea {
-        font-size: 1rem;
-    }
-
-    #operations {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #operations input[type="text"] {
-        width: 90%;
-    }
-
-    button {
-        width: 90%;
-        margin-bottom: 10px;
-    }
-
-    table, th, td {
-        font-size: 0.9rem;
-    }
-
-    img {
-        width: 30px;
-        height: 30px;
-    }
-}
-
-
-
-
-
 
 
 
