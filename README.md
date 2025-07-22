@@ -39,5 +39,5 @@ A **To Do App** built using **HTML**, **CSS**, and **JavaScript**. This project 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/afayushtiwari/todo-app.git
-   cd todo-app
+   git clone https://github.com/afayushtiwari/Note-Taking-App.git
+   cd Note-Taking-App
