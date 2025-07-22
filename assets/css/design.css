@@ -118,10 +118,89 @@ img {
     color: antiquewhite;
 }
 
+/* ------------------ RESPONSIVE STYLES ------------------ */
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin: auto;
+}
+
+/* Form elements */
+#todo-form input,
+#todo-form textarea,
+#operations input[type="text"] {
+  width: 100%;
+  font-size: 1rem;
+}
+
+/* Table scrollable on small screens */
+#records {
+  overflow-x: auto;
+}
+
+/* Flex-wrap for buttons */
+#operations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#operations button,
+#operations input[type="text"] {
+  flex: 1 1 140px;
+  min-width: 140px;
+}
+
+/* Table minimum width */
+table {
+  font-size: 0.95rem;
+  min-width: 600px;
+}
+
+/* Tablet screens */
+@media (max-width: 768px) {
+  .box {
+    width: 95%;
+    padding: 15px;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  th, td {
+    padding: 10px 8px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  #operations button,
+  #operations input[type="text"] {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  table {
+    font-size: 0.85rem;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
 
 
 
 
 
 
-/*  */
+
