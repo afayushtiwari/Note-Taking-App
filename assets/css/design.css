@@ -15,12 +15,12 @@ body {
     text-align: center;
 }
 
-/* Title */
+
 h1 {
     margin-bottom: 20px;
 }
 
-/* Box Layout */
+
 .box {
     width: 85%;
     max-width: 580px;
@@ -31,7 +31,7 @@ h1 {
     box-shadow: 0px 0px 20px rgba(255, 0, 200, 0.2);
 }
 
-/* Form Fields */
+
 #todo-form div {
     margin-bottom: 15px;
     text-align: left;
@@ -54,7 +54,7 @@ h1 {
     color: white;
 }
 
-/* Button Styles */
+
 #operations {
     display: flex;
     flex-wrap: wrap;
@@ -108,7 +108,7 @@ img {
     border-radius: 4px;
 }
 
-/* Error Message (optional) */
+
 #name-error {
     color: red;
     font-size: 0.85rem;
@@ -118,7 +118,7 @@ img {
     color: antiquewhite;
 }
 
-/* ------------------ RESPONSIVE STYLES ------------------ */
+
 
 .container {
   max-width: 1200px;
@@ -126,7 +126,7 @@ img {
   margin: auto;
 }
 
-/* Form elements */
+
 #todo-form input,
 #todo-form textarea,
 #operations input[type="text"] {
@@ -134,12 +134,12 @@ img {
   font-size: 1rem;
 }
 
-/* Table scrollable on small screens */
+
 #records {
   overflow-x: auto;
 }
 
-/* Flex-wrap for buttons */
+
 #operations {
   display: flex;
   flex-wrap: wrap;
@@ -153,13 +153,13 @@ img {
   min-width: 140px;
 }
 
-/* Table minimum width */
+
 table {
   font-size: 0.95rem;
   min-width: 600px;
 }
 
-/* Tablet screens */
+
 @media (max-width: 768px) {
   .box {
     width: 95%;
