@@ -37,6 +37,9 @@ h1 {
     text-align: left;
 }
 
+
+
+
 #todo-form label {
     font-weight: bold;
     display: inline-block;
@@ -47,12 +50,15 @@ h1 {
 #todo-form input,
 #todo-form textarea {
     width: 100%;
+    max-width: 100%;
     padding: 10px;
-    border: 1px solid #616c1c;
+    border: 1px solid #ffd700;                  /* changes applied*/
     border-radius: 6px;
     background-color: #111;
     color: white;
+    box-sizing: border-box;
 }
+
 
 
 #operations {
@@ -121,10 +127,14 @@ img {
 
 
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 1200px;
   width: 95%;
   margin: auto;
 }
+
 
 
 #todo-form input,
@@ -163,18 +173,31 @@ table {
 @media (max-width: 768px) {
   .box {
     width: 95%;
-    padding: 15px;
+    padding: 20px;
   }
 
-  button {
+  #todo-form label,
+  #todo-form input,
+  #todo-form textarea {
+    font-size: 1rem;
+  }
+
+  table {
     font-size: 0.9rem;
-    padding: 8px 12px;
   }
 
-  th, td {
-    padding: 10px 8px;
+  #operations {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #operations input,
+  #operations button {
+    width: 100%;
   }
 }
+
+
 
 /* Mobile screens */
 @media (max-width: 480px) {
