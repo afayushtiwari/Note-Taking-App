@@ -7,7 +7,7 @@
     cursor: pointer;
 }
 body {
-  background: linear-gradient(to bottom right, #d831a6, #4e1098);
+  background: linear-gradient(to bottom right, #d831a6, #4e1098); 
   font-family: 'Segoe UI', sans-serif;
   color: white;
   margin: 0;
@@ -32,7 +32,6 @@ body {
   padding: 25px;
   border-radius: 15px;
   box-shadow: 0px 0px 20px rgba(255, 0, 200, 0.2);
-  text-align: left;
 }
 
 #todo {
