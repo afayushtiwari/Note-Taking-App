@@ -1,3 +1,4 @@
+<style>
 .red{
     background-color: lightcoral;
 }
@@ -5,185 +6,129 @@
 .hand{
     cursor: pointer;
 }
-
 body {
-    background: linear-gradient(to bottom right, #d831a6, #4e1098);
-    font-family: 'Segoe UI', sans-serif;
-    color: white;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
+  background: linear-gradient(to bottom right, #d831a6, #4e1098);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
 }
-
-
-h1 {
-    margin-bottom: 20px;
-}
-
-
-.box {
-    width: 85%;
-    max-width: 580px;
-    margin: 30px auto;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 20px rgba(255, 0, 200, 0.2);
-}
-
-
-#todo-form div {
-    margin-bottom: 15px;
-    text-align: left;
-}
-
-
-
-
-#todo-form label {
-    font-weight: bold;
-    display: inline-block;
-    margin-bottom: 5px;
-    color: #fff200b2;
-}
-
-#todo-form input,
-#todo-form textarea {
-    width: 100%;
-    max-width: 100%;
-    padding: 10px;
-    border: 1px solid #ffd700;                  /* changes applied*/
-    border-radius: 6px;
-    background-color: #111;
-    color: white;
-    box-sizing: border-box;
-}
-
-
-
-#operations {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-#operations input[type="text"] {
-    width: 250px;
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #eeff00;
-    background-color: #111;
-    color: white;
-}
-
-button {
-    background-color: #bb613dd2;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #008496;
-}
-
-/* Table Styles */
-table {
-    width: 100%;
-    margin-top: 20px;
-    border-collapse: collapse;
-    background-color: #222;
-    color: #fff200b2;;
-}
-
-th, td {
-    padding: 12px;
-    border: 1px solid #555;
-    text-align: center;
-}
-
-img {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 4px;
-}
-
-
-#name-error {
-    color: red;
-    font-size: 0.85rem;
-}
-#todo{
-    text-align: center;
-    color: antiquewhite;
-}
-
-
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 1200px;
-  width: 95%;
+  width: 100%;
   margin: auto;
 }
 
+.box {
+  width: 85%;
+  max-width: 580px;
+  margin: 30px auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(255, 0, 200, 0.2);
+  text-align: left;
+}
 
+#todo {
+  text-align: center;
+  color: antiquewhite;
+}
 
-#todo-form input,
-#todo-form textarea,
-#operations input[type="text"] {
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #fff200b2;
+  text-align: left;
+}
+
+input, textarea {
   width: 100%;
-  font-size: 1rem;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ffd700;
+  border-radius: 6px;
+  background-color: #111;
+  color: white;
+  box-sizing: border-box;
 }
-
-
-#records {
-  overflow-x: auto;
-}
-
 
 #operations {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  margin-top: 20px;
 }
 
-#operations button,
 #operations input[type="text"] {
-  flex: 1 1 140px;
-  min-width: 140px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #eeff00;
+  background-color: #111;
+  color: white;
 }
 
+button {
+  background-color: #bb613dd2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #008496;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
 
 table {
-  font-size: 0.95rem;
-  min-width: 600px;
+  background-color: #222;
+  color: #fff200b2;
 }
 
+th, td {
+  padding: 12px;
+  border: 1px solid #555;
+  text-align: center;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+#name-error {
+  color: red;
+  font-size: 0.85rem;
+}
 
 @media (max-width: 768px) {
   .box {
     width: 95%;
     padding: 20px;
-  }
-
-  #todo-form label,
-  #todo-form input,
-  #todo-form textarea {
-    font-size: 1rem;
-  }
-
-  table {
-    font-size: 0.9rem;
   }
 
   #operations {
@@ -196,34 +141,4 @@ table {
     width: 100%;
   }
 }
-
-
-
-/* Mobile screens */
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.6rem;
-  }
-
-  #operations button,
-  #operations input[type="text"] {
-    width: 100%;
-    flex: 1 1 100%;
-  }
-
-  table {
-    font-size: 0.85rem;
-  }
-
-  img {
-    width: 30px;
-    height: 30px;
-  }
-}
-
-
-
-
-
-
-
+</style>
